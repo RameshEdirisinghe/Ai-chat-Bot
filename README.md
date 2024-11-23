@@ -47,7 +47,9 @@ An interactive, **responsive**, and fast **AI-powered chatbot** with a modern de
 
 
 ## Screenshot
-
+![Chatbot Screenshot](SS-phone.png)
+<br>
+<br>
 ![Chatbot Screenshot](SS-Desktop.png)
 
 ---
