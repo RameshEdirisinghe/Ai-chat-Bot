@@ -1,15 +1,18 @@
 # AI Chatbot - ASKBOT
 
-An interactive and visually appealing AI chatbot powered by a modern design. The chatbot uses AI responses (replaceable with actual API integration) and is built using HTML, CSS, and JavaScript.
+An interactive, **responsive**, and fast **AI-powered chatbot** with a modern design. The chatbot provides a seamless user experience and can be easily integrated with AI APIs for dynamic responses.
 
 ---
 
 ## Features
 
-- **Interactive Design**: A sleek, dark-themed UI with modern typography and responsive layout.
-- **Customizable**: Easily modify styles and scripts to suit your needs.
-- **AI-Powered Responses**: Ready to integrate with APIs for dynamic AI responses.
-- **Cross-Browser Compatibility**: Works seamlessly on modern browsers.
+- **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
+- **Fast Performance**: Lightweight design ensures quick load times and smooth interactions.
+- **Interactive UI**: A sleek, dark-themed interface with intuitive user interactions.
+- **Customizable**: Easily modify styles and scripts to fit your needs.
+- **AI-Powered Responses**: Ready to integrate with AI APIs for dynamic and intelligent conversations.
+- **Cross-Browser Compatibility**: Works flawlessly on modern browsers.
+
 
 ---
 
@@ -49,6 +52,16 @@ An interactive and visually appealing AI chatbot powered by a modern design. The
 
 ---
 
+
+## Features Highlight
+
+- **Fast**: Optimized script ensures quicker responses.
+- **Responsive**: Adapts gracefully to screens of all sizes.
+- **Modern**: Clean and professional UI with a dark mode aesthetic.
+- **Accessible**: Smooth scrolling and user-friendly controls.
+
+---
+
 ## Contributing
 
 Contributions are welcome! To contribute:
@@ -66,3 +79,4 @@ Contributions are welcome! To contribute:
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
+
