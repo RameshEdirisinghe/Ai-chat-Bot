@@ -3,6 +3,9 @@ let messageDiv = document.getElementById("textbody");
 const sendButton = document.getElementById("sendButton");
 const textInput = document.getElementById("textInput");
 
+var md = window.markdownit();
+
+
 sendButton.addEventListener("click", send);
 textInput.addEventListener("keyup", (event) => {
     if (event.key === "Enter") send();
@@ -43,7 +46,7 @@ async function getAIResponse(userMessage) {
 
     try {
         const response = await fetch(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=",
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBMkFqpJCgS613YgpQLL6FHFmBBQuSmL8M",
             { method: "POST", headers, body }
         );
 
@@ -68,9 +71,10 @@ async function getAIResponse(userMessage) {
 
 function addMessage(sender, message, time) {
     const bubbleClass = sender === "Me" ? "me" : "ai";
+    
     const messageHTML = `
         <div class="message ${bubbleClass}">
-            <div class="bubble">${message}</div>
+            <div class="bubble">${md.render(message)}</div>
             <div class="time">${time}</div>
         </div>
     `;
@@ -81,3 +85,4 @@ function addMessage(sender, message, time) {
 
 
 
+let numbarray =[1,2,3,4,5]
