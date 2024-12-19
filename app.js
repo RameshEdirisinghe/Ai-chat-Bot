@@ -46,7 +46,7 @@ async function getAIResponse(userMessage) {
 
     try {
         const response = await fetch(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBMkFqpJCgS613YgpQLL6FHFmBBQuSmL8M",
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=add your api Key here",
             { method: "POST", headers, body }
         );
 
